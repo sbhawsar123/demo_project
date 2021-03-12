@@ -1,0 +1,15 @@
+<h1>Sign Up</h1>
+ <%= notice %>
+<%= form_for User.new do |f|%>
+  <%= f.label :email%><br>
+  <%= f.email_field :email%><br>
+  <%= f.label :password%><br>
+  <%= f.password_field :password%><br>
+  <%= f.label :first_name%><br>
+  <%= f.text_field :first_name%><br>
+  <%= f.label :last_name%><br>
+  <%= f.text_field :last_name%><br>
+  <%= f.label :mobile_no%><br>
+  <%= f.text_field :mobile_no%><br>
+  <%= f.submit %>
+<%end%>
