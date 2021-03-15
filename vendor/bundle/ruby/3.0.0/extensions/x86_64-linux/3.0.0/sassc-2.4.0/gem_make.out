@@ -1,5 +1,5 @@
 current directory: /home/rails/demo_project/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/usr/share/rvm/rubies/ruby-3.0.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210312-47236-pukih5.rb extconf.rb
+/usr/share/rvm/rubies/ruby-3.0.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210315-30595-ncqb9l.rb extconf.rb
 creating Makefile
 
 current directory: /home/rails/demo_project/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.so
 
 current directory: /home/rails/demo_project/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -m 0755 libsass.so ./.gem.20210312-47236-otxkpp/sassc
+/usr/bin/install -m 0755 libsass.so ./.gem.20210315-30595-rioaj3/sassc
