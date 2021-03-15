@@ -1,5 +1,5 @@
 current directory: /home/rails/demo_project/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext/nio4r
-/usr/share/rvm/rubies/ruby-3.0.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210312-47236-5wy5wg.rb extconf.rb
+/usr/share/rvm/rubies/ruby-3.0.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210315-30595-a2dgrk.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -113,4 +113,4 @@ linking shared-object nio4r_ext.so
 
 current directory: /home/rails/demo_project/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20210312-47236-rs4syt
+/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20210315-30595-l9h3g2

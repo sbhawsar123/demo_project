@@ -1,18 +1,19 @@
 class UsersController < ApplicationController
-  def new
-  end
+  def new; end
 
   def create
-    @user = User.create(param_method) 
+    @user = User.new(param_method) 
     if @user.save       
-      session[:user_id] = @user.email
+      session[:user_id] = @user.id
       flash[:notice] = "Succefully signed in"
-      redirect_to '/welcome'
+      redirect_to root_url
     else
       flash[:notice] = "Either email exist or Mobile no is incorrect"
       render 'new'
     end
   end
+  
+  private
   def param_method
     params.require(:user).permit(:email, :password,:first_name, :last_name, :mobile_no)
   end
